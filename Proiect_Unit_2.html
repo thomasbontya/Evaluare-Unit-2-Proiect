@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+
+<title> Proiect_Unit2.exe </title>
+<link rel="stylesheet" href="slideshow.css">
+<meta image="width=device-width, initial-scale=1">
+	<style>
+			body { background-color: White }
+			h1 {color: Silver;}
+			h2 {color: BlueViolet;}
+			h3 {color: BlueViolet;}
+			h4 {color: BlueViolet;}
+			h5 {color: BlueViolet;}
+			p {color:  Gold;}
+			
+			
+			table,tr,td,ul { border: solid orange ;
+			}
+			tr:hover {background-color: LightSteelBlue; }
+			
+			h1 { font-family: "Times New Roman";
+				border-style: o;
+				background-color: black;
+				font-size: 32px;
+				border-radius:5px;
+				margin-left:50px;}
+				
+			h2{ font-family: "Times New Roman";
+			font-style:italic;
+			font-size:28px;
+			margin-left:70px;
+			}
+			
+			h3{ font-family:"Times New Roman";
+			font-style:italic;
+			font-size:28px;
+			margin-left:70px;
+			}
+			
+			h4{ font-family:"Times New Roman";
+			font-style:italic;
+			font-size:28px;
+			margin-left:70px;}
+			
+			h5{font-family:"Times New Roman";
+			font-style:italic;
+			font-size:28px;
+			margin-left:70px;
+			}
+
+			p { font-family: "Times New Roman";
+				font-size: 22px;
+				margin-left:70px;
+				colour: yellow;}
+			div.bor{background-color:Lavender;}
+
+	</style>
+	<script>
+	function slideshow(){
+	var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 3000);
+}
+	}
+	</script>
+	</head>
+<body>
+<div>
+		<h1 style="text-decoration:underline"><center> Bontya Thomas Valentin</center></h1>
+		<p align="right"><a style="color: yellow;" href="">Bontya.Io.Thomas@utcluj.didatec.ro</a> </p>
+		
+		<div class="bord">
+		<div class="bor">
+		
+		<h3 style="text-decoration:underline"> Structura retelei personale si accesul la internet</h3>
+		 
+		 <center><img class="diag" style="width: 50%" src="retea.png" ></center>
+		
+		<h4 style="text-decoration:underline"> Caracteristicile conexiunii la retea</h4>
+		
+		<div align="right"> * Adresa MAC</div>
+		<img  style="width: 50%" src="physical.png"/>
+		
+		<div align="right">*  Adresa Ip</div>
+		<img  style="width: 50%" src="ipv4.png"/>
+		
+		<div align="right">*  Download</div>
+		<img  style="width: 50%" src="download-network.png"/>
+		
+		<div align="right">*  Upload</div>
+		<img  style="width: 50%" src="download-network.png"/>
+		</div>
+		</div>
+		<button class="button" onclick="slideshow()"><h5 style="text-decoration:underline">Monitorizarea resurselor</h5></button>
+<div class="bord">
+		<div class="slideshow-container">
+		
+<div class="mySlides fade">
+<center><div class="text">CPU</div>
+<img style="width: 50%"  src="cpu.png"/></center>
+
+</div>
+
+<div class="mySlides fade">
+<center><div class="text">Memory</div>
+  <img style="width: 50%" src="memory.png"/></center>
+  
+</div>
+
+<div class="mySlides fade">
+<center><div class="text">Disk</div>
+  <img style="width: 50%"  src="disk.png"/></center>
+  
+</div>
+<div class="mySlides fade">
+  <center><div class="text">Network</div>
+  <img style="width: 50%"  src="network.png"/></center>
+  
+</div>
+<div class="mySlides fade">
+  <center><div class="text">Ports</div>
+  <img style="width: 50%"  src="ports.png"/></center>
+  
+</div>
+</div>
+</div>
+<h2 style="text-decoration:underline"> Specificatii tehnice ale statiei principale de lucru</h2>
+<table>
+	<tr style="color: yellow;">
+		<td style="text-align:center;">  Denumire componenta </td>
+		<td style="text-align:center;">  Parametri  </td>
+		<td style="text-align:center;"/>  Producator  </td>
+	</tr>
+	<tr>
+		<td>CPU</td>
+		<td>AMD Ryzen7 3750H frecventa(GHz) 2.3-4(max)</td>
+		<td> AMD </td>
+	</tr>
+	<tr>
+		<td>Memoria(RAM)</td>
+		<td>8GB de tip DDR4 SO-DIMM si frecventa de 2666 MHz</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Sistem de operare</td>
+		<td>Windows 10 PRO</td>
+		<td>Microsoft</td>
+	</tr>
+	<tr>
+		<td>Placa video</td>
+		<td>GeForce GTX 1650 4GB</td>
+		<td>NVIDIA</td>
+	</tr>
+	<tr>
+		<td>Sursa</td>
+		<td>intrare sinusoidală de  la  50  Hz  –  60  Hz 
+		valorile nominale pentru adaptorul pentru alimentare de  la  
+		c.a.: 100  V  la  240  V c.a.
+		ieșire: 20  V  c.c  </td>
+		<td>fabricat in china</td>
+	</tr>
+		</table>
+
+	</div>
+</body>
+</html>

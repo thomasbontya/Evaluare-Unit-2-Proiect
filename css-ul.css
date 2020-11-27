@@ -1,0 +1,35 @@
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+ margin-left:50px;
+}
+
+.text {
+  color: black;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: top;
+  bottom: 8px;
+  width: 100%;
+  text-align: left-side;
+  text-decoration:underline ;
+
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.image{
+height:500px;
+width:100%;
+object-fit:cover;
+position:center;
+border: 5px solid #555;
+margin-left:10px;
+}
+
